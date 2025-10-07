@@ -1,0 +1,59 @@
+# -----------------------------
+# Python & UV Environment
+# -----------------------------
+nlp-env/
+.env/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.lock
+
+# UV specific
+uv.lock
+
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# -----------------------------
+# IDE & OS files
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Logs & Caches
+# -----------------------------
+*.log
+.cache/
+*.tmp
+*.bak
+
+# -----------------------------
+# Data files (optional)
+# -----------------------------
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+
+# -----------------------------
+# Project specific
+# -----------------------------
+__pycache__/
+*.sqlite3
